@@ -1,0 +1,14 @@
+/* Optional custom styles for the header component */
+.navbar-brand img {
+    margin-right: 10px;
+  }
+  
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #F5A623;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  

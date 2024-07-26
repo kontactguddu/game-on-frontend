@@ -1,0 +1,28 @@
+.footer {
+    padding: 20px 0;
+  }
+  
+  .footer .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .footer .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer hr {
+    margin: 10px 0;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #d3d3d3;
+  }
+  

@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  h1, p {
+    color: #fff;
+  }
+  
+  .btn-lg {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .btn-block {
+      width: 100%;
+      display: block;
+    }
+  }
+  

@@ -26,3 +26,17 @@
     color: #d3d3d3;
   }
   
+
+  .social-icons a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .social-icons a:first-child {
+    margin-left: 0;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  

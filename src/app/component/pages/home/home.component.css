@@ -1,0 +1,72 @@
+.car-container {
+    position: relative;
+    height: 160px; /* Adjust based on your car image */
+    overflow: hidden; /* Ensure cars are hidden when out of view */
+  }
+  
+  .car {
+    position: absolute;
+    bottom: 0;
+    width: 200px; /* Adjust size as needed */
+  }
+  
+  .carL {
+    left: -300px; /* Start off-screen left */
+    animation: moveCarL 10s linear infinite; /* Animation for left-facing car */
+  }
+  
+  .carR {
+    right: -300px; /* Start off-screen right */
+    opacity: 0; /* Initially hidden */
+    animation: moveCarR 7.5s linear infinite;
+    
+  }
+  
+  /* Animation for carL: moves from left to right and hides */
+  @keyframes moveCarL {
+    0% {
+      left: -300px;
+      opacity: 1;
+    }
+    45% {
+      left: calc(50% - 75px); /* Moves to the center area */
+      opacity: 1;
+    }
+    50% {
+      left: calc(100% - 150px); /* Move to the rightmost point */
+      opacity: 1;
+    }
+    55% {
+      left: calc(100% + 150px); /* Move further to ensure complete disappearance */
+      opacity: 0; /* Hide at the end of the animation */
+    }
+    100% {
+      left: -300px;
+      opacity: 0;
+    }
+  }
+  
+  /* Animation for carR: starts moving from right to left with a delay */
+  @keyframes moveCarR {
+    0% {
+      right: -300px;
+      opacity: 0;
+    }
+    55% {
+      right: -300px;
+      opacity: 0; /* Stay hidden until carL hides */
+    }
+    56% {
+      right: -300px;
+      opacity: 1; /* Show when carL reaches end */
+    }
+    99.99% {
+      right: calc(100%); /* Move to the leftmost point */
+      opacity: 1;
+    }
+    100% {
+      right: calc(100%); /* Move further to ensure complete disappearance */
+      opacity: 0; /* Hide when reaching the leftmost point */
+    }
+  }
+  

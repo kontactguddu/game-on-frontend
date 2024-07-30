@@ -1,0 +1,99 @@
+/* running-man.component.css */
+.game-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .score-board {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .game-area {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    background-image: url('src/assets/runningMan/run-background.png'); /* Path to your background image */
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .running-man {
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    height: 100px;
+    transition: left 0.1s linear;
+  }
+  
+  .bomb {
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+  }
+  
+  .start-button, .jump-button, .restart-button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .running-man.running {
+    animation: run-animation 0.5s steps(4) infinite;
+  }
+  
+  .running-man.jumping {
+    animation: jump-animation 1.0s linear;
+  }
+  
+  @keyframes run-animation {
+    0% { background-position: 0; }
+    100% { background-position: -400px; } /* Adjust based on the number of frames and width of sprite sheet */
+  }
+  
+  @keyframes jump-animation {
+    0% { bottom: 10px; }
+    25% { bottom: 35px; }
+    50% { bottom: 100px; }
+    75% { bottom: 85px; }
+    100% { bottom: 10px; }
+  }
+  
+
+  /* Game Over Styles */
+.game-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .game-over-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .game-over-box {
+    text-align: center;
+  }
+  
+  .game-over-score {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .restart-button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }

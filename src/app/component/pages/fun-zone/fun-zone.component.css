@@ -1,0 +1,26 @@
+/* fun-zone.component.css */
+.container {
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #000000;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 150px;
+    margin: 10px 10px; /* Adds gap around each button */
+  }
+  
+  
+  
+  .running-man,
+  .speed-test {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

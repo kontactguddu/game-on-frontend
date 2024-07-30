@@ -1,1 +1,33 @@
-<p>fun-zone works!</p>
+<!-- fun-zone.component.html -->
+
+<div class="row mb-4">
+    <div class="col text-center">
+      <button 
+        class="btn btn-primary" 
+        [ngClass]="{'btn-primary': currentComponent === 'runningMan', 'btn-outline-primary': currentComponent !== 'runningMan'}" 
+        (click)="loadComponent('runningMan')">
+        Running Man
+      </button>
+      <button 
+        class="btn btn-primary" 
+        [ngClass]="{'btn-primary': currentComponent === 'speedTest', 'btn-outline-primary': currentComponent !== 'speedTest'}" 
+        (click)="loadComponent('speedTest')">
+        Speed Test
+      </button>
+    </div>
+  </div>
+
+<div *ngIf="currentComponent" class="container mt-5">
+    
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf="currentComponent === 'runningMan'">
+          <app-running-man></app-running-man>
+        </ng-container>
+        <ng-container *ngIf="currentComponent === 'speedTest'">
+          <app-speed-test></app-speed-test>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  

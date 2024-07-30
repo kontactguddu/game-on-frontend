@@ -1,0 +1,26 @@
+<!-- running-man.component.html -->
+<div class="game-container">
+    <div class="score-board">Score: {{ score }}</div>
+    <div class="game-area">
+      <img 
+        [src]="currentManImage" 
+        class="running-man" 
+        [ngClass]="{ 'running': isRunning, 'jumping': isJumping }" 
+        (animationend)="endJump()"
+      />
+      <img *ngFor="let bomb of bombs" [style.left]="bomb.x + '%'" src="assets/runningMan/bomb.png" class="bomb" />
+    </div>
+    <button (click)="startGame()" class="start-button" [disabled]="isRunning">Start</button>
+    <button (click)="jump()" class="jump-button" [disabled]="!isRunning">Jump</button>
+
+    <!-- Game Over Overlay -->
+  <div class="game-over" *ngIf="!isRunning && gameOverVisible">
+    <img src="assets/runningMan/gameover.png" alt="Game Over" class="game-over-image" />
+    <div class="game-over-box">
+      <div class="game-over-score">Score: {{ score }}</div>
+      <button (click)="restartGame()" class="restart-button">Restart</button>
+    </div>
+  </div>
+
+  </div>
+  

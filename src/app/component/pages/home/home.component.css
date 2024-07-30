@@ -3,6 +3,10 @@
     height: 160px; /* Adjust based on your car image */
     overflow: hidden; /* Ensure cars are hidden when out of view */
   }
+
+  .heading {
+    color : #F5A623;
+  }
   
   .car {
     position: absolute;

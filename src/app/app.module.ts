@@ -8,8 +8,7 @@ import { FooterComponent } from './component/global/footer/footer.component';
 import { HomeComponent } from './component/pages/home/home.component';
 import { BlogComponent } from './component/pages/blog/blog.component';
 import { ContactUsComponent } from './component/pages/contact-us/contact-us.component';
-import { RunningManComponent } from './funzone/running-man/running-man.component';
-import { SpeedTestComponent } from './funzone/speed-test/speed-test.component';
+
 
 
 @NgModule({
@@ -19,12 +18,12 @@ import { SpeedTestComponent } from './funzone/speed-test/speed-test.component';
     FooterComponent,
     HomeComponent,
     BlogComponent,
-    ContactUsComponent,
-
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,7 +14,7 @@
     <button (click)="jump()" class="jump-button" [disabled]="!isRunning">Jump</button>
 
     <!-- Game Over Overlay -->
-  <div class="game-over" *ngIf="!isRunning && gameOverVisible">
+  <div class="game-over" *ngIf="gameOverVisible">
     <img src="assets/runningMan/gameover.png" alt="Game Over" class="game-over-image" />
     <div class="game-over-box">
       <div class="game-over-score">Score: {{ score }}</div>

@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AboutUsComponent {
 
+  openCV() : void {
+    window.open('assets/resume/guddu_resume.pdf', '_blank');
+  }
+
 }

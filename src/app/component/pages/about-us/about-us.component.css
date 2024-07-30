@@ -1,0 +1,59 @@
+.about-us-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .heading {
+    color : #F5A623;
+  }
+  
+  .card-header {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .card-body p {
+    font-size: 1.2em;
+  }
+  
+  .card-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card-body li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+
+  .list-group-item {
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: black;
+  }
+
+  .list-group-horizontal {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list-group-horizontal .list-group-item {
+    margin-right: 10px;
+  }
+
+  .hobby-icon {
+    width: 20px;
+    height: 20px;
+  }
+  

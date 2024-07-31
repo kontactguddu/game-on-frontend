@@ -9,6 +9,8 @@ import { HomeComponent } from './component/pages/home/home.component';
 import { BlogComponent } from './component/pages/blog/blog.component';
 import { ContactUsComponent } from './component/pages/contact-us/contact-us.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TitleTransformPipe } from './pipe/title-transform.pipe';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    TitleTransformPipe,
+    CarouselModule.forRoot() // Importing CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,24 @@
-<p>blog works!</p>
+<div class="container mt-5">
+    <h2 class="text-center heading">Trip with Friends</h2>
+    <div class="row mb-4">
+      <div class="col-md-4" *ngFor="let trip of friendTrips">
+        <div class="card" (click)="navigateToTrip(trip)">
+          <div class="card-body">
+            <h5 class="card-title">{{ trip }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <h2 class="text-center heading">Trip with Cousins</h2>
+    <div class="row mb-4">
+      <div class="col-md-4" *ngFor="let trip of cousinTrips">
+        <div class="card" (click)="navigateToTrip(trip)">
+          <div class="card-body">
+            <h5 class="card-title">{{ trip }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

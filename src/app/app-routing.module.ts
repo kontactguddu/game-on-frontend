@@ -7,6 +7,7 @@ import { AboutUsComponent } from './component/pages/about-us/about-us.component'
 import { MlComponent } from './component/pages/ml/ml.component';
 import { FunZoneComponent } from './component/pages/fun-zone/fun-zone.component';
 import { FeedbackComponent } from './component/pages/feedback/feedback.component';
+import { TripDetailsComponent } from './trip/trip-details/trip-details.component';
 
 const routes: Routes = [
   
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'ml', component: MlComponent },
   { path: 'fun-zone', component: FunZoneComponent },
   { path: 'feedback', component: FeedbackComponent },
+  { path: 'trip/:name', component: TripDetailsComponent},
   { path: '**', redirectTo: '' }
 ];
 

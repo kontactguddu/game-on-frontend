@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-blog',
@@ -6,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
+
+  friendTrips: string[] = [
+    'Mayapur (WB)', 'Puri (Orissa)', 'Ranchi (Jharkhand)', 'Jamshedpur (Jharkhand)', 
+     'Simdega (Jharkhand)', 'Bangalore (Karnataka)', 'Mysore (Karnataka)',
+     'Kolkata (WB)'
+  ];
+
+  cousinTrips: string[] = [
+    'Banaras (UP)', 'Agra (UP)', 'Gurugram (Haryana)', 'Rajgir (Bihar)', 'Gaya (Bihar)'
+  ];
+
+  constructor(private router: Router) {}
+
+  navigateToTrip(trip: string): void {
+    this.router.navigate(['/trip', trip]);
+  }
 
 }

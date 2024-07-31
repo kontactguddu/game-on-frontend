@@ -8,7 +8,7 @@ import { FooterComponent } from './component/global/footer/footer.component';
 import { HomeComponent } from './component/pages/home/home.component';
 import { BlogComponent } from './component/pages/blog/blog.component';
 import { ContactUsComponent } from './component/pages/contact-us/contact-us.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -22,8 +22,8 @@ import { ContactUsComponent } from './component/pages/contact-us/contact-us.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
- 
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

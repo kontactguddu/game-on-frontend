@@ -5,9 +5,14 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <carousel>
-          <slide *ngFor="let image of detail.images">
-            <img [src]="image" class="d-block w-100" alt="{{ detail.title }}">
-          </slide>
+          <ng-container *ngIf="detail.images && detail.images.length > 0; else noImage">
+            <slide *ngFor="let image of detail.images">
+              <img [src]="image" class="d-block fixed-size" alt="{{ detail.title }}">
+            </slide>
+          </ng-container>
+          <ng-template #noImage>
+            <div class="no-image">No image available</div>
+          </ng-template>
         </carousel>
       </div>
     </div>

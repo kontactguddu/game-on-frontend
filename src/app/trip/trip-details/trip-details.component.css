@@ -24,8 +24,27 @@
   }
   
   .container {
-    max-width: 800px; /* Optional: Adjust the container width if needed */
+    max-width: 1000px; /* Optional: Adjust the container width if needed */
   }
+
+  .fixed-size {
+    width: 100%;
+    height: 400px; /* or any fixed height you prefer */
+    object-fit: cover; /* This ensures the image covers the container */
+  }
+  
+  .no-image {
+    width: 100%;
+    height: 300px; /* same height as the images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* light grey background */
+    color: #888; /* grey text */
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
   
   h2, h3 {
     margin-bottom: 20px;

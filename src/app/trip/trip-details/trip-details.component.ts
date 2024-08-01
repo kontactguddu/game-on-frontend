@@ -19,16 +19,9 @@ export class TripDetailsComponent implements OnInit {
     'Mayapur (WB)': [
       {
         title: 'ISKCON Temple',
-        images: ['assets/trip/mayapur/1.jpg', 'assets/trip/mayapur/2.jpg', 'assets/trip/mayapur/3.jpg', 'assets/trip/mayapur/4.jpg', 'assets/trip/mayapur/2.jpg'],
+        images: ['assets/trip/mayapur/1.jpg', 'assets/trip/mayapur/2.jpg', 'assets/trip/mayapur/3.jpg', 'assets/trip/mayapur/4.jpg', 'assets/trip/mayapur/5.jpg'],
         description: 'The ISKCON Temple in Mayapur is a significant pilgrimage site.'
-      },
-
-      {
-        title: 'Jagannath Temple',
-        images: ['assets/trip/mayapur/2.jpg', 'assets/trip/mayapur/3.jpg', 'assets/trip/mayapur/3.jpg'],
-        description: 'The Jagannath Temple is a famous Hindu temple dedicated to Jagannath.'
-      },
-      // Add more places within Mayapur
+      }
     ],
     'Puri (Orissa)': [
       {
@@ -46,6 +39,15 @@ export class TripDetailsComponent implements OnInit {
       },
       // Add more places within Ranchi
     ],
+    'Banaras (UP)': [
+      {
+        title: 'Banaras Ghat',
+        images: ['assets/trip/banaras/1.jpg', 'assets/trip/banaras/2.jpg', 'assets/trip/banaras/3.jpg', 'assets/trip/banaras/4.jpg', 'assets/trip/banaras/5.jpg', 'assets/trip/banaras/6.jpg', 'assets/trip/banaras/7.jpg', 'assets/trip/banaras/8.jpg'],
+        description: 'Ghats in Varanasi are riverfront steps leading to the banks of the Ganges river. The city has 84 ghats'
+      },
+      // Add more places within Ranchi
+    ],
+
     // Add details for other trips
   };
 

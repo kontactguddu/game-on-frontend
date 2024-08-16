@@ -11,6 +11,9 @@ import { ContactUsComponent } from './component/pages/contact-us/contact-us.comp
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TitleTransformPipe } from './pipe/title-transform.pipe';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { environment } from 'src/environments/environment.prod';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 
 @NgModule({
@@ -27,7 +30,9 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     AppRoutingModule,
     NgbModule,
     TitleTransformPipe,
-    CarouselModule.forRoot() // Importing CarouselModule
+    CarouselModule.forRoot(), // Importing CarouselModule
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

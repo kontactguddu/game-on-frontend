@@ -14,6 +14,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { environment } from 'src/environments/environment.prod';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from 'firebase/app';
 
 
 @NgModule({

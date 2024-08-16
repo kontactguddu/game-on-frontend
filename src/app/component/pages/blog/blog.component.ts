@@ -11,7 +11,7 @@ export class BlogComponent {
   friendTrips: string[] = [
     'Mayapur (WB)', 'Puri (Orissa)', 'Ranchi (Jharkhand)', 'Jamshedpur (Jharkhand)', 
      'Simdega (Jharkhand)', 'Bangalore (Karnataka)', 'Mysore (Karnataka)',
-     'Kolkata (WB)'
+     'Kolkata (WB)', 'Deoghar (Jharkhand)'
   ];
 
   cousinTrips: string[] = [

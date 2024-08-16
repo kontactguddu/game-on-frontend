@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gameon-frontend:build:production"
+              "buildTarget": "gameon-frontend:build:production"
             },
             "development": {
-              "browserTarget": "gameon-frontend:build:development"
+              "buildTarget": "gameon-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -15,6 +15,7 @@ import { Router } from '@angular/router';
 export class FeedbackComponent implements OnInit{
 
   feedbackForm: any;
+  showThankYou = false;
   
 
   constructor(
@@ -28,42 +29,40 @@ export class FeedbackComponent implements OnInit{
       title: ['', Validators.required],
       description: ['', Validators.required],
       name: ['', Validators.required],
-      phone: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
-      email: ['', [Validators.required, Validators.email]]
+      phone: ['', [Validators.pattern('^[0-9]{10}$')]],
+      email: ['', [Validators.email]]
     });
   }
 
   onSubmit(): void {
     console.log('Form submission triggered');
-  if (this.feedbackForm.valid) {
-    console.log('Form is valid, preparing to submit');
+    if (this.feedbackForm.valid) {
+      console.log('Form is valid, preparing to submit');
     
-    const feedbackData = {
-      ...this.feedbackForm.value,
-      timestamp: new Date()
-    };
+      const feedbackData = {
+        ...this.feedbackForm.value,
+        timestamp: new Date()
+      };
     
-    console.log('Submitting feedback with data:', feedbackData);
+      console.log('Submitting feedback with data:', feedbackData);
     
-    this.firestore.collection('feedbacks').add( {
-      title: this.feedbackForm.value.title,
-      description: this.feedbackForm.value.description,
-      name: this.feedbackForm.value.name,
-      phone: this.feedbackForm.value.phone,
-      email: this.feedbackForm.value.email
-    })
-      .then(() => {
-        console.log('Feedback submitted successfully!');
-        this.feedbackForm.reset();
-        this.router.navigate(['/thank-you']); // Optional navigation
-      })
-      .catch(error => {
-        console.error('Error submitting feedback: ', error);
-      });
-  } else {
-    console.log('Form is invalid:', this.feedbackForm.errors);
-    this.feedbackForm.markAllAsTouched(); // To trigger validation messages if the form is invalid
-  }
+      this.firestore.collection('feedbacks').add(feedbackData)
+        .then(() => {
+          console.log('Feedback submitted successfully!');
+          this.showThankYou = true;  // Show Thank You component
+          setTimeout(() => {
+            this.showThankYou = false; // Hide Thank You component
+            this.feedbackForm.reset();
+            this.router.navigate(['/']); // Navigate to the home page
+          }, 2500); // 2.5 seconds delay
+        })
+        .catch(error => {
+          console.error('Error submitting feedback: ', error);
+        });
+    } else {
+      console.log('Form is invalid:', this.feedbackForm.errors);
+      this.feedbackForm.markAllAsTouched(); // To trigger validation messages if the form is invalid
+    }
   }
 
   onCancel(): void {

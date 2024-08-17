@@ -7,5 +7,22 @@
   }
 
   .heading {
-    color : #F5A623;
+    color : #f5a623;
+  }
+
+  .required:before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+
+  .thank-you-box {
+    background-color: #f5a623; /* Background color */
+    color: black; /* Text color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space between the message and the form */
   }

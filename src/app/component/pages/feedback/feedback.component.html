@@ -2,14 +2,14 @@
     <h2 class="text-center heading">Feedback Form</h2>
     <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()" class="mx-auto">
       <div class="form-group">
-        <label for="title">Title</label>
+        <label for="title" class="required">Title</label>
         <input type="text" id="title" class="form-control" formControlName="title">
         <div *ngIf="feedbackForm.get('title').invalid && feedbackForm.get('title').touched" class="alert alert-danger">
           Title is required.
         </div>
       </div>
       <div class="form-group">
-        <label for="description">Description</label>
+        <label for="description" class="required">Description</label>
         <textarea id="description" class="form-control" formControlName="description"></textarea>
         <div *ngIf="feedbackForm.get('description').invalid && feedbackForm.get('description').touched" class="alert alert-danger">
           Description is required.
@@ -17,7 +17,7 @@
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="name">Name</label>
+          <label for="name" class="required">Name</label>
           <input type="text" id="name" class="form-control" formControlName="name">
           <div *ngIf="feedbackForm.get('name').invalid && feedbackForm.get('name').touched" class="alert alert-danger">
             Name is required.
@@ -38,6 +38,11 @@
           Valid email is required.
         </div>
       </div>
+
+      <div *ngIf="showThankYou" class="thank-you-box">
+        Thank you for your feedback!
+      </div>
+
       <div class="d-flex justify-content-between">
         <button type="button" class="btn btn-secondary" (click)="onCancel()">Cancel</button>
         <button type="submit" class="btn btn-success">Submit</button>

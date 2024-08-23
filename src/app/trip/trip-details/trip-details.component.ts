@@ -47,6 +47,32 @@ export class TripDetailsComponent implements OnInit {
       },
       // Add more places within Ranchi
     ],
+    'Kolkata (WB)': [
+      {
+        title: 'Durga Puja & Science City',
+        images: ['assets/trip/kolkata/1.jpg', 'assets/trip/kolkata/2.jpg', 
+          'assets/trip/kolkata/3.jpg', 'assets/trip/kolkata/4.jpg',
+           'assets/trip/kolkata/5.jpg', 'assets/trip/kolkata/6.jpg',
+           'assets/trip/kolkata/7.jpg', 'assets/trip/kolkata/8.jpg', 'assets/trip/kolkata/9.jpg'],
+
+        description: `
+  Last October, I (Guddu) and a few friends visited Kolkata to experience the grandeur of Durga Puja. 
+  The city was alive with lights, music, and vibrant decorations. Every pandal we visited was a unique work of art, 
+  showcasing incredible creativity. The devotion and energy during the evening aarti were unforgettable, making us feel 
+  deeply connected to the festive spirit.
+
+  After soaking in the cultural splendor, we headed to Science City, eager to explore Kolkata’s scientific side. 
+  The Space Theatre’s 3D show was a highlight, taking us on a breathtaking journey through the universe. The Evolution Park, 
+  with its life-sized models of dinosaurs and other creatures, was both educational and fascinating.
+
+  The Dynamotion Hall offered hands-on experiments with sound, light, and optical illusions, making learning fun and interactive. 
+  We ended our visit with a ride on the Ropeway, which gave us a stunning view of the Science City complex and the city beyond.
+
+  Our trip to Kolkata was a perfect mix of tradition and modernity, leaving us with memories of vibrant celebrations and inspiring discoveries.
+`
+      },
+      // Add more places within Puri
+    ],
 
     // Add details for other trips
   };

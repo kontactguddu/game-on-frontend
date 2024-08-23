@@ -15,7 +15,7 @@ export class BlogComponent {
   ];
 
   cousinTrips: string[] = [
-    'Banaras (UP)', 'Agra (UP)', 'Gurugram (Haryana)', 'Rajgir (Bihar)', 'Gaya (Bihar)'
+    'Barabar (Bihar)', 'Banaras (UP)', 'Agra (UP)', 'Gurugram (Haryana)', 'Rajgir (Bihar)', 'Gaya (Bihar)'
   ];
 
   constructor(private router: Router) {}

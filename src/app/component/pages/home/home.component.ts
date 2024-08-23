@@ -7,6 +7,8 @@ import { Component, OnInit} from '@angular/core';
 })
 export class HomeComponent {
 
+  year: number = new Date().getFullYear();
+
   carLImages: string[] = [
     'assets/carL/carL.png',
     'assets/carL/carL2.png',

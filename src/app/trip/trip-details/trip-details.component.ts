@@ -5,12 +5,13 @@ import { HttpClient } from '@angular/common/http';
 
 import { TitleTransformPipe } from 'src/app/pipe/title-transform.pipe';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { LineBreakPipe } from 'src/app/pipe/line-break.pipe';
 
 
 @Component({
   selector: 'app-trip-details',
   standalone: true,
-  imports: [CommonModule, TitleTransformPipe, CarouselModule],
+  imports: [CommonModule, TitleTransformPipe, CarouselModule, LineBreakPipe],
   templateUrl: './trip-details.component.html',
   styleUrl: './trip-details.component.css'
 })

@@ -18,7 +18,10 @@
     </div>
     <div class="row mt-3">
       <div class="col-md-12">
-        <p>{{ detail.description }}</p>
+        <!-- <p>{{ detail.description }}</p> -->
+        <div [innerHTML]="detail.description | lineBreak"></div>
+
+
       </div>
     </div>
   </div>

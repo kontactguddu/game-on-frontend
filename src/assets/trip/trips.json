@@ -200,15 +200,23 @@
       {
         "title": "Jubilee Park",
         "images": [
-          "assets/trip/jamshedpur/1.jpg",
-          "assets/trip/jamshedpur/2.jpg",
-          "assets/trip/jamshedpur/3.jpg",
-          "assets/trip/jamshedpur/4.jpg",
-          "assets/trip/jamshedpur/5.jpg",
-          "assets/trip/jamshedpur/6.jpg"
+          "assets/trip/jamshedpur/jublie/1.jpg",
+          "assets/trip/jamshedpur/jublie/2.jpg",
+          "assets/trip/jamshedpur/jublie/3.jpg",
+          "assets/trip/jamshedpur/jublie/4.jpg"
         ],
         "description": "In August 2022, I embarked on a day trip to Jubilee Park in Jamshedpur with my college friends. The trip was a spontaneous decision, born out of a desire to explore the natural beauty of the region and spend quality time together.\n\nJubilee Park, located in the heart of Jamshedpur, is a sprawling green space that offers a peaceful retreat from the hustle and bustle of city life. The park is known for its lush gardens, colorful flower beds, and recreational facilities, making it a popular destination for locals and tourists alike.\n\nWe spent the day at the park, exploring its various attractions and enjoying the serene ambiance. The Rose Garden, with its vibrant blooms and sweet fragrance, was a delight to the senses. We also visited the Jayanti Sarovar, a picturesque lake that added to the beauty of the park.\n\nOne of the highlights of our trip was the boating experience at the lake. Drifting along the calm waters, surrounded by the greenery of the park, was a truly relaxing experience. The boat ride allowed us to connect with the serenity of the place and enjoy the company of friends.\n\nThis day trip to Jubilee Park was a perfect blend of relaxation, nature, and camaraderie, leaving us with cherished memories of a day well spent."
-      }
+      },
+      {
+        "title": "Salim–Sulaiman Show",
+        "images": [
+          "assets/trip/jamshedpur/salim/1.jpg",
+          "assets/trip/jamshedpur/salim/2.jpg",
+          "assets/trip/jamshedpur/salim/3.jpg",
+          "assets/trip/jamshedpur/salim/4.jpg"
+        ],
+        "description": "During my third year of college, I had the incredible opportunity to attend a live concert by the renowned music duo Salim–Sulaiman. The event was organized by XLRI Jamshedpur, and it was my first experience attending such a grand musical event. The excitement was palpable from the moment I arrived at the venue, with a massive crowd eagerly waiting in long queues to enter.\n\nAs I finally stepped inside, the energy of the place was electrifying. The stage was set with dazzling lights, and the anticipation among the audience was high. When Salim–Sulaiman took the stage, the atmosphere turned magical. Their powerful performances, soulful melodies, and high-energy beats had the entire crowd singing and dancing along. Every song felt like an experience in itself, and their interaction with the audience made it even more engaging.\n\nThe show was nothing short of spectacular, and witnessing such a live performance for the first time left me in awe. The music, the vibe, and the enthusiasm of the crowd made it an unforgettable night. It was truly an amazing experience—one that deepened my love for live music and mega events."
+       }
     ],
     "Bangalore (Karnataka)": [
       {
@@ -223,7 +231,54 @@
         ],
         "description": "In September 2022, I embarked on a day trip to Lalbagh Botanical Garden in Bangalore with my college friends. The trip was a spontaneous decision, born out of a desire to explore the natural beauty of the region and spend quality time together.\n\nLalbagh Botanical Garden, located in the heart of Bangalore, is a sprawling green space that offers a peaceful retreat from the hustle and bustle of city life. The garden is known for its lush greenery, colorful flower beds, and diverse plant species, making it a popular destination for nature lovers and tourists alike.\n\nWe spent the day at the garden, exploring its various attractions and enjoying the serene ambiance. The Glass House, with its stunning architecture and vibrant floral displays, was a highlight of our visit. We also visited the Kempegowda Tower, a historic monument that offers panoramic views of the garden and the city beyond.\n\nOne of the highlights of our trip was the boating experience at the lake. Drifting along the calm waters, surrounded by the greenery of the garden, was a truly relaxing experience. The boat ride allowed us to connect with the serenity of the place and enjoy the company of friends.\n\nThis day trip to Lalbagh Botanical Garden was a perfect blend of relaxation, nature, and camaraderie, leaving us with cherished memories of a day well spent."
       }
+    ],
+    "Goa": [
+      {
+        "title": "Beaches of Goa",
+        "images": [
+          "assets/trip/goa/1.jpg",
+          "assets/trip/goa/2.jpg",
+          "assets/trip/goa/3.jpg",
+          "assets/trip/goa/4.jpg",
+          "assets/trip/goa/5.jpg",
+          "assets/trip/goa/6.jpg",
+          "assets/trip/goa/7.jpeg"
+        ],
+        "description": "In December 2024, I embarked on a solo journey from Bangalore to Goa, enduring a 12-hour bus ride filled with anticipation for the adventures ahead. Upon arrival, I reunited with my friend Adarsh and two of his colleagues, and together, we rented scooters to explore the diverse landscapes of Goa.\n\nOur exploration began in North Goa, where we visited Candolim Beach, renowned for its tranquil atmosphere and golden sands. The beach offered a serene escape, allowing us to relax and enjoy the coastal beauty. We then ventured to Anjuna Beach, famous for its vibrant flea markets and eclectic shops, providing a unique shopping experience amidst picturesque surroundings. As evening approached, we headed to Baga Beach, known for its lively nightlife and bustling shacks. The beach was teeming with energy, offering a perfect blend of music, food, and the rhythmic waves.\n\nOur journey continued to South Goa, where we discovered the pristine beauty of Rock Beach. Here, we indulged in kayaking, navigating the serene waters surrounded by lush greenery. The area also offered a variety of water sports, adding an adrenaline rush to our tranquil surroundings.\n\nOne of the highlights of my trip was an impromptu visit to a local nightclub with fellow travelers from the hostel. The experience showcased Goa's vibrant and diverse nightlife, filled with music, dance, and camaraderie.\n\n Before concluding my journey, I visited the Our Lady of the Immaculate Conception Church in Panjim. This historic church, established in 1541, stands as a testament to Goa's rich cultural heritage and offers a moment of reflection amidst the bustling city. "  }
+    ],
+    "Ooty (Tamilnadu)": [
+      {
+        "title": "Ooty Odyssey: A Winter Retreat Amidst the Nilgiris",
+        "images": [
+          "assets/trip/ooty/1.jpg",
+          "assets/trip/ooty/2.jpg",
+          "assets/trip/ooty/3.jpg",
+          "assets/trip/ooty/4.jpg",
+          "assets/trip/ooty/5.jpg",
+          "assets/trip/ooty/6.jpg",
+          "assets/trip/ooty/7.jpg",
+          "assets/trip/ooty/8.jpg",
+          "assets/trip/ooty/9.jpg"
+        ],
+        "description": "In the final week of December 2024, my friend Siddharth and I embarked on a bus journey from Bangalore to Ooty, arriving in the early morning to a crisp temperature of around 6 to 7 degrees Celsius. The chilly air welcomed us as we stepped off the bus, and the first thing we did was enjoy a comforting cup of hot tea, which felt like a warm embrace in the cold weather. After freshening up at our hotel, we set out to explore the town. Since renting bikes or scooters isn’t allowed in Ooty, we opted for the Ooty Tourism Bus to visit its many scenic spots.\n\n Our tour began with a visit to the famous Government Botanical Garden, a vast 55-acre expanse filled with diverse plant species and beautifully landscaped gardens. The vibrant flowers and lush greenery made for a refreshing start to the day. Next, we headed to Ooty Lake, a serene spot where tourists enjoyed peaceful boat rides surrounded by picturesque scenery.\n\nThroughout our trip, I indulged in different varieties of tea that Ooty is famous for. I tried masala tea, chocolate tea, and green tea, each offering a unique and delightful taste. The green tea particularly stood out, so I decided to buy some for myself and my family.\n\nOn the second day, we took a tour package to Pykara, a beautiful region located about 21 kilometers from Ooty. We first visited Pykara Lake, where we enjoyed a peaceful boat ride on its crystal-clear waters. The experience was incredibly soothing, surrounded by dense forests and unspoiled natural beauty. From there, we headed to Pykara Falls, where the cascading water created a mesmerizing view, making it one of the most picturesque spots of the trip. We also explored Wenlock Downs, a vast stretch of lush meadows that looked straight out of a movie scene, making it a popular shooting location for films.\n\nDespite the breathtaking views, one major challenge we faced was the heavy traffic congestion in Ooty. At times, we found ourselves stuck for long durations, but it gave us more time to soak in the beauty of the town. Before heading back, I made sure to purchase Ooty’s famous homemade chocolates for my friends, even though I personally don’t like chocolate much.  \n\nAs the night fell, we boarded our return bus to Bangalore, marking the end of a memorable journey filled with natural beauty, aromatic teas, and serene landscapes. Ooty’s charm and winter magic made this trip an unforgettable way to close the year." 
+       }
+    ],
+    "Waynad (Kerala)": [
+      {
+        "title": "Wayanad: God's Own Retreat",
+        "images": [
+          "assets/trip/waynad/1.jpeg",
+          "assets/trip/waynad/2.jpeg",
+          "assets/trip/waynad/3.jpeg",
+          "assets/trip/waynad/4.jpeg",
+          "assets/trip/waynad/5.jpeg",
+          "assets/trip/waynad/6.jpeg",
+          "assets/trip/waynad/7.jpeg"
+        ],
+        "description":"In last week of Feb 2025, my corporate friends and I embarked on a memorable journey from Bangalore to the enchanting district of Wayanad, Kerala. Traveling in a comfortable seven-seater car, we were eager to explore the natural beauty and cultural richness that Wayanad promised. \n\nOur accommodation was at The Hosteller Wayanad, a highly recommended hostel nestled amidst lush greenery. Located just a ten-minute drive from the serene Pookode Lake, the hostel offered breathtaking views of the surrounding landscapes. The interiors reflected Wayanad's rich heritage, with locally sourced bamboo furniture and tribal-inspired murals, creating an authentic and inviting ambiance. \n\nOur adventure began with an exhilarating ziplining experience, soaring over the verdant tea plantations and dense forests that characterize Wayanad's landscape. The thrill of gliding through the air, surrounded by panoramic views, was an unforgettable start to our trip.\n\nWe then visited the Banasura Sagar Dam, India's largest earthen dam. The dam is a picturesque reservoir surrounded by lush hills and tea gardens, offering opportunities for boating and providing splendid views of Banasura Hill. The peaceful ambiance and the sight of the submerged islands made it a popular tourist destination.\n\nOur journey continued to Pookode Lake, a beautiful freshwater lake nestled between evergreen forests and the Western Ghats. Spanning 13 acres with a depth of 40 meters, the lake is one of Wayanad's most preferred tourist destinations. The calm and peaceful environment, surrounded by lush greenery, provided a serene retreat from our adventurous activities. \n\nThis trip to Wayanad was a perfect blend of adventure, nature, and camaraderie. From thrilling activities to tranquil natural beauty, each experience left us with cherished memories and a deeper appreciation for this captivating region."  
+      } 
     ]
+    
 
   }
   
